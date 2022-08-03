@@ -34,5 +34,5 @@ To run specific test
 ## Future improvements
 
 - To avoid pass the maze all the time, If some day you want to use classes, please inject it to the constructor
-- It's highly recommended to use typeScript, proptypes or something to check properties
+- It's highly recommended to use typeScript, proptypes or something to check types
 - Use try and catch to be prepared for errors
