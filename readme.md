@@ -29,7 +29,7 @@ To run all test
 
 To run specific test
 
-```node test```
+```node [fileTestPath]```
 
 ## Future improvements
 
