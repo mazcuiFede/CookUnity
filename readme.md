@@ -1,6 +1,7 @@
 # CookUnity exercise
 
-Hello, in this repo
+Hello, in this repo you find the solution of a letter maze.
+For further information, you can check the PDF included in this repo.
 
 ## Considerations
 
@@ -18,7 +19,18 @@ I did not use libraries. The test were made in native JS.
 
 ## To Run
 
+```node index.js```
+
 ## To Test
+
+To run all test
+
+```node test```
+
+To run specific test
+
+```node test```
+
 
 ## Future improvements
 
