@@ -1,7 +1,7 @@
 # CookUnity exercise
 
 Hello, in this repo you find the solution of a letter maze.
-For further information, you can check the PDF included in this repo.
+For further information, you can check the [PDF](https://github.com/mazcuiFede/CookUnity/blob/main/CookUnity_Technical_Test.pdf) included in this repo.
 
 ## Considerations
 
