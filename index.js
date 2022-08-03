@@ -48,5 +48,5 @@ const findPath = (solution) => {
 }
 
 
-solution.push([0, 1]) 
+solution.push([0, maze[0].indexOf("B")]) 
 findPath(solution)
