@@ -30,17 +30,21 @@ const findPath = (solution) => {
 
     }
     else {
+      
       solution.push(exit[0])
 
-      solution.map((x) => {
-        console.log(positionToChar(maze, x), "at position", x)
+      solution.map((x, i) => {
+
+        if ((i - 1) % 3 === 0 || i === 1 || i === (solution.length - 1)) 
+          process.stdout.write("-")
+        
+        process.stdout.write(positionToChar(maze, x));
+        
+        // console.log(positionToChar(maze, x), "at position", x)
       })
 
-      console.log('End')
     }
-
   }
-
 }
 
 
