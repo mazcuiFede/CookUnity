@@ -10,27 +10,27 @@ const findPath = (solution) => {
 
   if (root) {
 
-    const neighbours = getNeighbours(solution, root)
-    const exit = findExit(neighbours, solution)
+    const neighbours = getNeighbours(maze, solution, root)
+    const exit = findExit(maze, neighbours, solution)
 
     console.clear()
 
     if (exit.length > 0) {
       solution.push(exit[0])
       solution.map((x) => {
-        console.log(positionToChar(x), "at position", x)
+        console.log(positionToChar(maze, x), "at position", x)
       })
       console.log('End')
     } else {
-      if (neighbours[0] && shouldAddValue(solution, neighbours[0])) {
+      if (neighbours[0] && shouldAddValue(maze, solution, neighbours[0])) {
         solution.push(neighbours[0])
         findPath(solution)
       } else {
-        if (neighbours[1] && shouldAddValue(solution, neighbours[1])) {
+        if (neighbours[1] && shouldAddValue(maze, solution, neighbours[1])) {
           solution.push(neighbours[1])
           findPath(solution)
         } else {
-          if (neighbours[2] && shouldAddValue(solution, neighbours[2])) {
+          if (neighbours[2] && shouldAddValue(maze, solution, neighbours[2])) {
             solution.push(neighbours[2])
             findPath(solution)
           } else {

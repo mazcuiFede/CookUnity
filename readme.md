@@ -31,7 +31,8 @@ To run specific test
 
 ```node test```
 
-
 ## Future improvements
 
-All the files use the maze file to work. In the future, you can decouple use Dependency Inyection.
+- To avoid pass the maze all the time, If some day you want to use classes, please inject it
+- It's highly recommended to use typeScript, proptypes or something to check typos
+- Use try and catch to be prepared for errors
